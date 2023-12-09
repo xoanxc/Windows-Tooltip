@@ -3,7 +3,7 @@ color 2
 
 echo.
 echo.
-echo              Reparación de archivos del sistema y optimización
+echo              Reparacion de archivos del sistema y optimizacion
 echo.
 echo.
 echo              Presiona cualquier tecla para continuar...

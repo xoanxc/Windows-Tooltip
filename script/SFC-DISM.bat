@@ -15,9 +15,9 @@ echo.
 
 sfc /scannow
 if %ERRORLEVEL% neq 0 (
-    echo [!] Error durante la verificación y reparación de archivos del sistema.
+    echo [!] Error durante la verificación y reparacion de archivos del sistema.
 ) else (
-    echo [+] Verificación y reparación completadas.
+    echo [+] Verificacion y reparacion completadas.
 )
 
 echo [-] Verificando la salud de la imagen del sistema (DISM /Online /Cleanup-Image /CheckHealth)...
@@ -25,9 +25,9 @@ echo.
 
 DISM /Online /Cleanup-Image /CheckHealth
 if %ERRORLEVEL% neq 0 (
-    echo [!] Error durante la verificación de salud de la imagen del sistema.
+    echo [!] Error durante la verificacion de salud de la imagen del sistema.
 ) else (
-    echo [+] Verificación de salud de la imagen del sistema completada.
+    echo [+] Verificacion de salud de la imagen del sistema completada.
 )
 
 echo [-] Escaneando la salud de la imagen del sistema (DISM.exe /Online /Cleanup-image /Scanhealth)...
@@ -47,11 +47,11 @@ DISM.exe /Online /Cleanup-image /Restorehealth
 if %ERRORLEVEL% neq 0 (
     echo [!] Error durante la restauración de salud de la imagen del sistema.
 ) else (
-    echo [+] Restauración de salud de la imagen del sistema completada.
+    echo [+] Restauracion de salud de la imagen del sistema completada.
 )
 
 echo.
-echo [+] Proceso de reparación y optimización completado.
+echo [+] Proceso de reparacion y optimización completado.
 echo.
 
 pause

@@ -22,10 +22,8 @@ echo [-] Limpiando archivos temporales
 echo.
 
 RD /S /Q %temp%
-MKDIR %temp%
 takeown /f "%temp%" /r /d y
 RD /S /Q C:\Windows\temp
-MKDIR C:\Windows\temp
 takeown /f "C:\Windows\temp" /r /d y
 takeown /f %temp% /r /d y
 echo [+] Archivos temporales eliminados

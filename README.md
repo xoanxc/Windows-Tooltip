@@ -7,3 +7,7 @@ Small optimization tools executable in the Windows terminal.
 It is recommended to review the files before executing them. We are not responsible for any potential damage. Use at your own risk and always with full awareness of your actions.
 
 
+## Disable Web Search in Windows Search
+
+
+

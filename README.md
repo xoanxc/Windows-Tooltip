@@ -8,6 +8,9 @@ It is recommended to review the files before executing them. We are not responsi
 
 
 ## Disable Web Search in Windows Search
+https://github.com/xoanxc/Windows-Tooltip/blob/main/script/DisableWebSearch.bat
 
+
+## 
 
 

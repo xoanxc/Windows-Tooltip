@@ -13,6 +13,6 @@ It is recommended to review the files before executing them. We are not responsi
 https://github.com/xoanxc/Windows-Tooltip/blob/main/script/DisableWebSearch.bat
 
 
-### Update aplications with WinGet
+### Update programs with WinGet
 https://github.com/xoanxc/Windows-Tooltip/blob/main/script/Auto-Update.bat
 

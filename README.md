@@ -7,10 +7,12 @@ Small optimization tools executable in the Windows terminal.
 It is recommended to review the files before executing them. We are not responsible for any potential damage. Use at your own risk and always with full awareness of your actions.
 
 
-## Disable Web Search in Windows Search
+## Scripts
+
+### Disable Web Search in Windows Search
 https://github.com/xoanxc/Windows-Tooltip/blob/main/script/DisableWebSearch.bat
 
 
-## 
-
+### Actualizar aplicaciones con WinGet
+https://github.com/xoanxc/Windows-Tooltip/blob/main/script/Auto-Update.bat
 

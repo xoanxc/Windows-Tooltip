@@ -2,7 +2,7 @@
 :menu
 cls
 echo =========================================
-echo           Configuración NetBIOS
+echo           Configuracion NetBIOS
 echo =========================================
 echo 1. Desactivar NetBIOS sobre TCP/IP
 echo 2. Activar NetBIOS sobre TCP/IP

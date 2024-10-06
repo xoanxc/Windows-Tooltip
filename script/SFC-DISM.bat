@@ -23,7 +23,7 @@ if %ERRORLEVEL% neq 0 (
 echo [-] Verificando el disco (chkdsk)...
 echo.
 
-chkdsk /f /r
+chkdsk
 if %ERRORLEVEL% neq 0 (
     echo [!] Error durante la verificación del disco.
 ) else (

@@ -20,6 +20,16 @@ if %ERRORLEVEL% neq 0 (
     echo [+] Verificacion y reparacion completadas.
 )
 
+echo [-] Verificando el disco (chkdsk)...
+echo.
+
+chkdsk /f /r
+if %ERRORLEVEL% neq 0 (
+    echo [!] Error durante la verificación del disco.
+) else (
+    echo [+] Verificación del disco completada.
+)
+
 echo [-] Verificando la salud de la imagen del sistema (DISM /Online /Cleanup-Image /CheckHealth)...
 echo.
 
